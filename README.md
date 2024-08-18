@@ -13,7 +13,6 @@ METHODOLOGY AND PROCEDURE:
 
 1.	Data Collecting: Created a selenium script that scrap all washing machines detail from LG & Samsung’s website in a schemas that matters while performing analsys.
 
-
 2.	Data Cleaning: Handle missing values, outliers, and noise in the data.
 
 3.	Data Visualization: Applying histogram to known the underlying distribution of variables.
@@ -22,15 +21,18 @@ METHODOLOGY AND PROCEDURE:
 # Choosing a Clustering Method:
 
 1.	Select an appropriate clustering algorithm based on the nature of the data and the specific goals of the analysis. It includes:
-a.	K-means is a widely-used clustering algorithm that divides a dataset into a specified number (k) of clusters. It is an iterative algorithm that assigns each data point to the nearest cluster center, then adjusts the cluster centers to be the mean of the points in the cluster.
-b.	BIRCH stands for Balanced Iterative Hierarchical Based Clustering. It is used on very large datasets where K-Means cannot practically scale. BIRCH algorithm divides large data into small clusters and tries to retain the maximum amount of information possible.
-c.	DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is an unsupervised machine learning algorithm that is used to identify clusters of points in a dataset based on their density
-d.	Hierarchical clustering is a method of clustering that involves creating a hierarchy (tree like structure) of clusters. 
-Determining the Number of Clusters:
+     a.	K-means is a widely-used clustering algorithm that divides a dataset into a specified number (k) of clusters. It is an iterative algorithm that assigns each data  
+        point to the nearest cluster center, then adjusts the cluster centers to be the mean of the points in the cluster.
+    b.	BIRCH stands for Balanced Iterative Hierarchical Based Clustering. It is used on very large datasets where K-Means cannot practically scale. BIRCH algorithm 
+        divides large data into small clusters and tries to retain the maximum amount of information possible.
+    c.	DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is an unsupervised machine learning algorithm that is used to identify clusters of points in a 
+        dataset based on their density
+    d.	Hierarchical clustering is a method of clustering that involves creating a hierarchy (tree like structure) of clusters. 
+        Determining the Number of Clusters:
 
-1.	Use methods like the Elbow Method or Silhouette Score to decide on the optimal number of clusters.
-a.	Elbow Method: Plots the within-cluster sum of squares (WCSS) against the number of clusters and looks for an "elbow point" where the rate of decrease sharply slows.
-b.	Silhouette Score: Measures how similar a data point is to its own cluster compared to other clusters.
+2.	Use methods like the Elbow Method or Silhouette Score to decide on the optimal number of clusters.
+    a.	Elbow Method: Plots the within-cluster sum of squares (WCSS) against the number of clusters and looks for an "elbow point" where the rate of decrease sharply slows.
+    b.	Silhouette Score: Measures how similar a data point is to its own cluster compared to other clusters.
 
 # Clustering the Data:
 
